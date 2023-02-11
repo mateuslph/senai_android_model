@@ -1,7 +1,12 @@
 public class Produtos {
+    private int idProduto;
     private String descricao;
     private float preco;
     private String unidade;
+
+    public int getIdProduto() {
+        return idProduto;
+    }
 
     public String getDescricao() {
         return descricao;
